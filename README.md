@@ -1,7 +1,6 @@
 # churn-analysis-python
 Análise de cancelamento de clientes utilizando Python e Pandas.
 
-# pip install pandas, openpyxl, nbformat, ipykernel, plotly 
 # Passo 1: Abrir a base de dados(Importar a base de dados) 
 import pandas as pd #pd é um apelido pra biblioteca, só pra escrever menos 
 tabela = pd.read_csv("cancelamentos.csv")
